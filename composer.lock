@@ -1,0 +1,92 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "86849878cba5b463b67771a075f0ff8f",
+    "packages": [
+        {
+            "name": "phpupil-com/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpupil-com/framework.git",
+                "reference": "e14f0b8dd63a822072ca2e6b996ea133343d7c76"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/phpupil-com/framework/e14f0b8dd63a822072ca2e6b996ea133343d7c76.zip",
+                "reference": "e14f0b8dd63a822072ca2e6b996ea133343d7c76",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPupil\\Framework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "吴跃忠",
+                    "email": "study@phpupil.com",
+                    "homepage": "http://phpupil.com/"
+                }
+            ],
+            "description": "phpupil 高性能并发协程框架",
+            "time": "2018-04-06T18:19:34+00:00"
+        },
+        {
+            "name": "phpupil-com/server-http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpupil-com/server-http.git",
+                "reference": "02e0594973029a7f90641b5e7306e27826245f45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/phpupil-com/server-http/02e0594973029a7f90641b5e7306e27826245f45.zip",
+                "reference": "02e0594973029a7f90641b5e7306e27826245f45",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPupil\\Server\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "吴跃忠",
+                    "email": "study@phpupil.com",
+                    "homepage": "http://phpupil.com/"
+                }
+            ],
+            "description": "PHPupil HTTP Server",
+            "time": "2018-04-07T02:48:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "phpupil-com/framework": 20,
+        "phpupil-com/server-http": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

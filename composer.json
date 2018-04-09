@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpupil-com/framework": "dev-master",
+        "phpupil-com/server-http": "dev-master"
+    }
+}
